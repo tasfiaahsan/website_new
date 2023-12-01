@@ -1,16 +1,12 @@
 ---
-title: "Perceived depth modulates "
+title: "Perceived depth modulates perceptual resolution"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2019-09-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -21,7 +17,8 @@ publication_types: ["article-journal"]
 publication: "*Journal of Source Themes, 1*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Humans constantly use depth information to support perceptual decisions about object size and location in space, as well as planning and executing actions. It was recently reported that perceived depth modulates perceptual performance even when depth information is not relevant to the task, with faster shape discrimination for objects perceived as being close to the observer. However, it is yet to be determined if the observed “close advantage” reflects differences in psychophysical sensitivity or response bias. Moreover, it is unclear whether this advantage is generalizable to other viewing situations and tasks. To address these outstanding issues, we evaluated whether visual resolution is modulated by perceived depth defined by 2D pictorial cues. In a series of experiments, we used the method of constant stimuli to measure the precision of perceptual judgements for stimuli positioned at close, far, and flat perceived distances. In Experiment 1, we found that size discrimination was more precise when the object was perceived to be closer to the observers. Experiments 2a and 2b extended this finding to a visual property orthogonal to depth information, by showing superior orientation discrimination for “close” objects. Finally, Experiment 3 demonstrated that the close advantage also occurs when performing high-level perceptual tasks such as face perception. Taken together, our results provide novel evidence that the perceived depth of an object, as defined by pictorial cues, modulates the precision of visual processing for close objects.
+
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
