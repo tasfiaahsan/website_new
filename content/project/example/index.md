@@ -5,8 +5,8 @@ tags:
   - online experiments, building psycholgoical experiments
 date: '2021-04-27'
 
-# Optional external URL for project (replaces project detail page).
-external_link: 'https://tasfiaahsan.github.io/Creating-Online-Experiments-with-PsychoPy/'
+# Optional external URL for project (replaces project detail page)
+external_link: "https://tasfiaahsan.github.io/Creating-Online-Experiments-with-PsychoPy/"
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -20,4 +20,3 @@ image:
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-
