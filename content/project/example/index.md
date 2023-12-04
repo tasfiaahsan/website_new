@@ -12,15 +12,6 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: ''
-url_code: 'https://drive.google.com/drive/folders/1VwLhXDxq6mFZ7-c8ZD2PnsAyzKMtWYgE?usp=sharing'
-url_pdf: ''
-url_slides: ''
-url_video: ''
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
