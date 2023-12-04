@@ -6,7 +6,7 @@ sections:
 - block: hero
   demo: yes
   content:
-      resumés, conferences, and tech blogs.\n\n<!--Custom spacing-->\n<div class=\"mb-3\"></div>\n<!--GitHub
+  resumés, conferences, and tech blogs.\n\n<!--Custom spacing-->\n<div class=\"mb-3\"></div>\n<!--GitHub
     title: Hugo Academic Theme
     image:
       filename: "hero-academic.png"
@@ -51,7 +51,7 @@ sections:
     items:
     - title: Graduate Research Scientist
       company: Freud Lab, York University
-      company_url: https://www.yorku.ca/health/lab/freud/
+      company_url: 'https://www.yorku.ca/health/lab/freud/'
       company_logo: freud_lab
       location: Toronto, ON
       date_start: "2019-09-01"
@@ -60,7 +60,7 @@ sections:
         Processing\n  * Technical Writing "
     - title: Undergraduate Researcher
       company: Eating Disorder Clinic, St. Joseph's Healthcare Hamilton
-      company_url: "https://www.stjoes.ca/hospital-services/mental-health-addiction-services/mental-health-services/eating-disorders-program"
+      company_url: 'https://www.stjoes.ca/hospital-services/mental-health-addiction-services/mental-health-services/eating-disorders-program'
       company_logo: null
       location: Hamilton, ON
       date_start: "2016-05-01"
@@ -68,168 +68,334 @@ sections:
       description: null
   design:
     columns: '2'
-# - block: accomplishments
-#   content:
-#     title: Accomplish&shy;ments
-#     subtitle: null
-#     date_format: Jan 2006
-#     items:
-#     - certificate_url: https://www.coursera.org
-#       date_end: ''
-#       date_start: "2021-01-25"
-#       description: ''
-#       icon: coursera
-#       organization: Coursera
-#       organization_url: https://www.coursera.org
-#       title: Neural Networks and Deep Learning
-#       url: ''
-#     - certificate_url: https://www.edx.org
-#       date_end: ''
-#       date_start: "2021-01-01"
-#       description: Formulated informed blockchain models, hypotheses, and use cases.
-#       icon: edx
-#       organization: edX
-#       organization_url: https://www.edx.org
-#       title: Blockchain Fundamentals
-#       url: "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-#     - certificate_url: https://www.datacamp.com
-#       date_end: "2020-12-21"
-#       date_start: "2020-07-01"
-#       description: ''
-#       icon: datacamp
-#       organization: DataCamp
-#       organization_url: https://www.datacamp.com
-#       title: "Object-Oriented Programming in R"
-#       url: ''
-#   design:
-#     columns: '2'
-- block: collection
-  id: posts
-  content:
-    title: Recent Posts
-    subtitle: ''
-    text: ''
-    count: 5
-    filters:
-      folders: post
-      author: ''
-      category: ''
-      tag: ''
-      exclude_featured: no
-      exclude_future: no
-      exclude_past: no
-      publication_type: ''
-    offset: 0
-    order: desc
-  design:
-    view: compact
-    columns: '2'
-- block: portfolio
-  id: projects
-  content:
-    title: Projects
-    filters:
-      folders: project
-    default_button_index: 0
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
-  design:
-    columns: '1'
-    view: showcase
-    flip_alt_rows: no
-- block: markdown
-  content:
-    title: Gallery
-    subtitle: ''
-    text: '{{< gallery album="demo" >}}'
-  design:
-    columns: '1'
-- block: collection
-  id: featured
-  content:
-    title: Featured Publications
-    filters:
-      folders: publication
-      featured_only: yes
-  design:
-    columns: '2'
-    view: card
-- block: collection
-  content:
-    title: Recent Publications
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
-    filters:
-      folders: publication
-      exclude_featured: yes
-  design:
-    columns: '2'
-    view: citation
-- block: collection
-  id: talks
-  content:
-    title: Recent & Upcoming Talks
-    filters:
-      folders: event
-  design:
-    columns: '2'
-    view: compact
-- block: tag_cloud
-  content:
-    title: Popular Topics
-  design:
-    columns: '2'
-- block: contact
-  id: contact
-  content:
-    title: Contact
-    subtitle: null
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis
-      ut magna et, vehicula efficitur enim.
-    email: test@example.org
-    phone: 888 888 88 88
-    appointment_url: https://calendly.com
-    address:
-      street: 450 Serra Mall
-      city: Stanford
-      region: CA
-      postcode: '94305'
-      country: United States
-      country_code: US
-    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    office_hours:
-    - Monday 10:00 to 13:00
-    - Wednesday 09:00 to 10:00
-    coordinates:
-      latitude: '37.4275'
-      longitude: "-122.1697"
-    contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: https://twitter.com/Twitter
-    - icon: skype
-      icon_pack: fab
-      name: Skype Me
-      link: skype:echo123?call
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: https://zoom.com
-    autolink: yes
-    form:
-      provider: netlify
-      formspree:
-        id: null
-      netlify:
-        captcha: no
-  design:
-    columns: '2'
 ---
+
+# - block: accomplishments
+
+# content:
+
+# title: Accomplish­ments
+
+# subtitle: null
+
+# date_format: Jan 2006
+
+# items:
+
+# - certificate_url: <https://www.coursera.org>
+
+# date_end: ''
+
+# date_start: "2021-01-25"
+
+# description: ''
+
+# icon: coursera
+
+# organization: Coursera
+
+# organization_url: <https://www.coursera.org>
+
+# title: Neural Networks and Deep Learning
+
+# url: ''
+
+# - certificate_url: <https://www.edx.org>
+
+# date_end: ''
+
+# date_start: "2021-01-01"
+
+# description: Formulated informed blockchain models, hypotheses, and use cases.
+
+# icon: edx
+
+# organization: edX
+
+# organization_url: <https://www.edx.org>
+
+# title: Blockchain Fundamentals
+
+# url: "<https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals>"
+
+# - certificate_url: <https://www.datacamp.com>
+
+# date_end: "2020-12-21"
+
+# date_start: "2020-07-01"
+
+# description: ''
+
+# icon: datacamp
+
+# organization: DataCamp
+
+# organization_url: <https://www.datacamp.com>
+
+# title: "Object-Oriented Programming in R"
+
+# url: ''
+
+# design:
+
+# columns: '2'
+
+# - block: collection
+
+# id: posts
+
+# content:
+
+# title: Recent Posts
+
+# subtitle: ''
+
+# text: ''
+
+# count: 5
+
+# filters:
+
+# folders: post
+
+# author: ''
+
+# category: ''
+
+# tag: ''
+
+# exclude_featured: no
+
+# exclude_future: no
+
+# exclude_past: no
+
+# publication_type: ''
+
+# offset: 0
+
+# order: desc
+
+# design:
+
+# view: compact
+
+# columns: '2'
+
+# - block: portfolio
+
+# id: projects
+
+# content:
+
+# title: Projects
+
+# filters:
+
+# folders: project
+
+# default_button_index: 0
+
+# buttons:
+
+# - name: All
+
+# tag: '\*'
+
+# - name: Deep Learning
+
+# tag: Deep Learning
+
+# - name: Other
+
+# tag: Demo
+
+# design:
+
+# columns: '1'
+
+# view: showcase
+
+# flip_alt_rows: no
+
+# - block: markdown
+
+# content:
+
+# title: Gallery
+
+# subtitle: ''
+
+# text: '{{< gallery album="demo" >}}'
+
+# design:
+
+# columns: '1'
+
+# - block: collection
+
+# id: featured
+
+# content:
+
+# title: Featured Publications
+
+# filters:
+
+# folders: publication
+
+# featured_only: yes
+
+# design:
+
+# columns: '2'
+
+# view: card
+
+# - block: collection
+
+# content:
+
+# title: Recent Publications
+
+# text: \|-
+
+# {{% callout note %}}
+
+# Quickly discover relevant content by [filtering publications](./publication/).
+
+# {{% /callout %}}
+
+# filters:
+
+# folders: publication
+
+# exclude_featured: yes
+
+# design:
+
+# columns: '2'
+
+# view: citation
+
+# - block: collection
+
+# id: talks
+
+# content:
+
+# title: Recent & Upcoming Talks
+
+# filters:
+
+# folders: event
+
+# design:
+
+# columns: '2'
+
+# view: compact
+
+# - block: tag_cloud
+
+# content:
+
+# title: Popular Topics
+
+# design:
+
+# columns: '2'
+
+# - block: contact
+
+# id: contact
+
+# content:
+
+# title: Contact
+
+# subtitle: null
+
+# text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis
+
+# ut magna et, vehicula efficitur enim.
+
+# email: [test\@example.org](mailto:test@example.org){.email}
+
+# phone: 888 888 88 88
+
+# appointment_url: <https://calendly.com>
+
+# address:
+
+# street: 450 Serra Mall
+
+# city: Stanford
+
+# region: CA
+
+# postcode: '94305'
+
+# country: United States
+
+# country_code: US
+
+# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+
+# office_hours:
+
+# - Monday 10:00 to 13:00
+
+# - Wednesday 09:00 to 10:00
+
+# coordinates:
+
+# latitude: '37.4275'
+
+# longitude: "-122.1697"
+
+# contact_links:
+
+# - icon: twitter
+
+# icon_pack: fab
+
+# name: DM Me
+
+# link: <https://twitter.com/Twitter>
+
+# - icon: skype
+
+# icon_pack: fab
+
+# name: Skype Me
+
+# link: <skype:echo123?call>
+
+# - icon: video
+
+# icon_pack: fas
+
+# name: Zoom Me
+
+# link: <https://zoom.com>
+
+# autolink: yes
+
+# form:
+
+# provider: netlify
+
+# formspree:
+
+# id: null
+
+# netlify:
+
+# captcha: no
+
+# design:
+
+# columns: '2'
+
+------------------------------------------------------------------------
