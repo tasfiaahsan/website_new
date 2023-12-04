@@ -18,9 +18,9 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description:
-  icon: chart-bar
+  icon: fa-globe
   icon_pack: fas
-  name: Statistics
+  name: Online Experiment
 - description:
   icon: r-project
   icon_pack: fab
@@ -28,15 +28,12 @@ feature:
 - description:
   icon: python
   icon_pack: fab
-  name: Python
+  name: PsychoPy
 - description:
-  icon: stripe-s
+  icon: fa-brain
   icon_pack: fab
-  name: SPSS
-- description:
-  icon: file-excel
-  icon_pack: fas
-  name: X-Files nerd
+  name: Brain Imaging
+
   
 
 
