@@ -9,7 +9,7 @@ date_format: Jan 2006
 experience:
 - title: Graduate Research Scientist
   company: Freud Lab, York University
-  company_url: https://www.yorku.ca/health/lab/freud/   
+  company_url: https://www.yorku.ca/health/lab/freud/
   company_logo: freud_lab
   location: Toronto, ON
   date_start: "2019-09-01"
