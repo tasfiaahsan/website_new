@@ -24,51 +24,34 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Research Associate
-    company: Robust Statistics Lab, York University
-    company_url: 'https://cribbie.info.yorku.ca/'
-    company_logo: org-yu
-    location: Toronto, ON
-    date_start: '2021-08-01'
-    date_end: ''
-    #description: |2-
-     # Responsibilities include:
-     # * Analysing
-     # * Modelling
-     # * Deploying
-        
-  - title: Junior Statistician
-    company: BPD Clinic, Centre for Addiction and Mental Health (CAMH)
-    company_url: 'https://www.camh.ca/en/your-care/programs-and-services/borderline-personality-disorder-clinic'
-    company_logo: org-camh
-    location: Toronto, ON
-    date_start: '2020-09-01'
-    date_end: ''
-
-  - title: Research Associate
-    company: Psychology and Statistics Education Research (PASER) Lab, Toronto Metropolitan University
-    company_url: 'https://www.psystat.org/'
-    company_logo: org-ru
+  - title: Graduate Research Scientist
+    company: Freud Lab, York University
+    company_url: 'https://www.yorku.ca/health/lab/freud/'
+    company_logo: freud_lab
     location: Toronto, ON
     date_start: '2019-08-01'
     date_end: ''
- 
-  - title: Joint Lab Manager
-    company: Cognitive Neuroscience & Neurointervention (CNN) Lab and Cognition & Aging Neuroscience (CAN) Lab, York University
-    company_url: 'https://www.yorku.ca/grturner/cann-home.html'
+    #description: |2-
+     # Responsibilities include:
+     # * Experiment Design and Execution 
+     # * Statistical Analysis 
+     # * Knowledge Dissemination
+        
+  - title: Undergraduate Researcher
+    company: Eating Disorder Clinic, St. Joseph's Healthcare Hamilton
+    company_url: 'https://www.stjoes.ca/hospital-services/mental-health-addiction-services/mental-health-services/eating-disorders-program'
+    company_logo: 
+    location: Hamilton, ON
+    date_start: '2016-05-01'
+    date_end: '2017-04-30'
+
+  - title:  Research Assistant
+    company:  Tourette Syndrome Neurodevelopmental Clinic, Toronto Western Hospital Metropolitan University
+    company_url: 'https://www.uhn.ca/MentalHealth/Clinics/Tourette_Syndrome_Clinic#about'
     company_logo: 
     location: Toronto, ON
-    date_start: '2016-04-01'
-    date_end: '2018-02-01'
-
-  - title: Research Assistant
-    company: Cognitive Neuroscience & Neurointervention (CNN) Lab, York University
-    company_url: 'https://www.yorku.ca/grturner/index.html'
-    company_logo: 
-    location: Toronto, ON
-    date_start: '2014-10-01'
-    date_end: '2018-02-01'
-
+    date_start: '2015-05-01'
+    date_end: '2015-08-30'
 
 design:
   columns: '2'
